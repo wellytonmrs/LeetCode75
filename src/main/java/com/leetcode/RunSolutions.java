@@ -1,8 +1,6 @@
 package com.leetcode;
 
-import com.leetcode.solutions.MoveZeroes;
-
-import java.lang.reflect.Array;
+import com.leetcode.solutions.IsSubsequence;
 
 public class RunSolutions {
 
@@ -26,18 +24,13 @@ public class RunSolutions {
         */
 
   /*
-    Example 1:
-
-Input:
-Output: [1,3,12,0,0]
-Example 2:
-
-Input: nums = [0]
-Output: [0]
-
-     */
-
         MoveZeroes mz = new MoveZeroes();
         mz.moveZeroes(new int[]{0, 1, 0, 3, 12});
+        */
+
+
+        IsSubsequence sub = new IsSubsequence();
+        System.out.println(sub.isSubsequence("abc", "ahbgdc"));
+        System.out.println(sub.isSubsequence("axc", "ahbgdc"));
     }
 }
