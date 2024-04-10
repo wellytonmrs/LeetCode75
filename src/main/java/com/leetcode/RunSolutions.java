@@ -1,6 +1,6 @@
 package com.leetcode;
 
-import com.leetcode.solutions.IsSubsequence;
+import com.leetcode.solutions.GCDofStrings;
 
 public class RunSolutions {
 
@@ -23,14 +23,22 @@ public class RunSolutions {
         System.out.println(trie.search("app"));      // return True
         */
 
-  /*
+        /*
         MoveZeroes mz = new MoveZeroes();
         mz.moveZeroes(new int[]{0, 1, 0, 3, 12});
         */
 
-
+        /*
         IsSubsequence sub = new IsSubsequence();
         System.out.println(sub.isSubsequence("abc", "ahbgdc"));
         System.out.println(sub.isSubsequence("axc", "ahbgdc"));
+        */
+
+        /*
+        GCDofStrings gcdString = new GCDofStrings();
+        System.out.println(gcdString.gcdOfStrings("111111111", "111111111111111111111111111"));
+        */
+
+
     }
 }
