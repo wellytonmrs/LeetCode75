@@ -2,6 +2,11 @@ package com.leetcode.solutions.arrayshashing;
 
 import java.util.HashMap;
 
+/**
+ * An Anagram is a word or phrase formed by rearranging the letters of a
+ *  different word or phrase, typically using all the original letters
+ *  exactly once.
+ */
 public class IsAnagram {
 
     public static void main(String[] args) {
@@ -14,6 +19,10 @@ public class IsAnagram {
         ret = isAnagram("rat", "car");
         test = ret ? "Not Pass" : "Pass";
         System.out.println("Array 2 - Expected: false, Returned: " + ret + ", Test: " + test);
+
+        ret = isAnagram("", "");
+        test = ret ? "Pass": "Not Pass";
+        System.out.println("Array 2 - Expected: True, Returned: " + ret + ", Test: " + test);
 
 
     }
